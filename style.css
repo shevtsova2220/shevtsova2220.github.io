@@ -1,60 +1,76 @@
-div{
-	border: solid 3px;
-	color: #9c3598;
-	margin:5px;
-	background: blue;
+body{
+	margin:0;
 }
-#block1{
-	height: 5000px;
-	background: yellow;
+
+div {
+    border: solid 3px;
+    color: #9c3598;
+    margin: 0px;
+    background: blue;
 }
-#block2{
-	border:solid 3px;
-	color: #9c3598;
-	background: #9fccd4;
-	margin: 5px
-	
+
+#block1 {
+    height: 1300px;
+    background: yellow;
 }
-#block3{
-	border:solid 3px;
-	color: #9c3598;
-	background: #86877f;
-	width: 25%;
-	float: left;
-	margin: 5px
-	
+
+#block2 {
+    border: solid 3px;
+    color: #9c3598;
+    background: #9fccd4;
+    margin: 5px;
 }
-#block4{
-	border:solid 3px;
-	color: #9c3598;
-	background: #86877f;
-	width: 40%;
-	float: left;
-	margin: 5px
-	
+
+#block3 {
+    border: solid 3px;
+    color: #9c3598;
+    background: #86877f;
+    width: 25%;
+    float: left;
+    margin: 5px;
 }
-#block5{
-	border:solid 3px;
-	color: #9c3598;
-	background: #86877f;
-	width: 400px;
-	float: left;
-	margin: 5px
-	
+
+#block4 {
+    border: solid 3px;
+    color: #9c3598;
+    background: #86877f;
+    width: 40%;
+    float: left;
+    margin: 5px;
 }
-#block6{
-	border:solid 3=px;
-	color: pink;
-	background: #9c3598;
-	margin: 5px
-	
-	
+
+#block5 {
+    border: solid 3px;
+    color: #9c3598;
+    background: #86877f;
+    width: 300px;
+    float: left;
+    margin: 5px;
 }
-.table{
-	background:#86877f;
-	pading: 5px;
-	}
-	
-	.clear {
+
+/* #block6 {
+    border: solid 3px;
+    color: pink;
+    background: #9c3598;
+    margin: 5px;
+} */
+
+#newBlock{
+    position: absolute;
+    bottom: 0;
+	width: 99.8%;
+}
+
+.table {
+    background: #86877f;
+    padding: 5px; /* Орфографічна помилка тут */
+}
+
+.clear {
     clear: both;
 }
+
+/* #blockdown {
+    margin-top: 10px;
+    background: red;
+} */
